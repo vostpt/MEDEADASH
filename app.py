@@ -47,8 +47,8 @@ app = dash.Dash(__name__,title='VOST PORTUGAL',suppress_callback_exceptions=True
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
     )
 
-app.css.config.serve_locally = False 
-app.scripts.config.serve_locally = False 
+app.css.config.serve_locally = True
+app.scripts.config.serve_locally = True
 
 # ------------------------------
 #      START APP LAYOUT
