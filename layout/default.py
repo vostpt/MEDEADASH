@@ -32,7 +32,7 @@ def header(data):
                                     children=[
                                         dmc.MediaQuery(
                                             dmc.Text(
-                                                "VOST PORTUGAL",
+                                                "VOST PORTUGAL | CONFIRM | MEDEA PoC",
                                                 size="xl",
                                                 color="gray"
                                             ),
@@ -67,7 +67,7 @@ def header(data):
                                             variant="outline",
                                             color="gray",
                                         ),
-                                        href="https://bajaportalegre.com/homepage.aspx?menuid=1",
+                                        href="https://vost.pt",
                                     ),
                                     dmc.ThemeSwitcher(
                                         id="color-scheme-toggle",
