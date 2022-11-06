@@ -78,7 +78,6 @@ sidebar = html.Div(
                 dbc.NavLink("EXERCISE", href="/", active="exact"),
                 dbc.NavLink("LIVE", href="/livex", active="exact"),
                 dbc.NavLink("EVACUATION ZONES", href="/evac", active="exact"),
-                dbc.NavLink("AREA OF INTEREST", href="/aoi", active="exact"),
                 dbc.NavLink("FINAL", href="/final", active="exact"),
                 dbc.NavLink("ABOUT", href="/about", active="exact"),
                 html.Hr(),
