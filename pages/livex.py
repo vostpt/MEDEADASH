@@ -196,7 +196,7 @@ def confirm_update_cards(value):
 	df_in_line = df_expanded_timeline.groupby(['Timestamp','ENTITY'],as_index=False)['TARGET'].nunique()
 	df_half = df_in_line.resample('30min', on='Timestamp', offset='01s').ENTITY.count().to_frame().reset_index()
 
-	figure_timeline = px.line(df_half,x='Timestamp',y='ENTITY',template='plotly_white',labels={"Timestamp":"DATE","ENTITY":"Number of Reports"})
+	figure_timeline = px.line(df_in_line,x='Timestamp',y='ENTITY',template='plotly_white',labels={"Timestamp":"DATE","ENTITY":"Number of Reports"})
 	figure_timeline.update_xaxes(nticks=5)
 
 	return total_reports, total_firefighters, total_cars, total_planes

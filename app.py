@@ -18,7 +18,7 @@ import dash_daq as daq
 from dash import Input, Output, dcc, html, dash_table
 import dash_bootstrap_components as dbc
 
-from pages import final, livex
+from pages import final, livex, summary
 
 
 # -----------------------------------------------
