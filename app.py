@@ -18,7 +18,7 @@ import dash_daq as daq
 from dash import Input, Output, dcc, html, dash_table
 import dash_bootstrap_components as dbc
 
-from pages import origin, occupancy, table, poi, summary, resources, temporary, humanaid, refugees_register, about, working, asylum, final
+from pages import final, livex
 
 
 # -----------------------------------------------
@@ -76,7 +76,7 @@ sidebar = html.Div(
             	html.Hr(),
                 
                 dbc.NavLink("EXERCISE", href="/", active="exact"),
-                dbc.NavLink("LIVE", href="/live", active="exact"),
+                dbc.NavLink("LIVE", href="/livex", active="exact"),
                 dbc.NavLink("EVACUATION ZONES", href="/evac", active="exact"),
                 dbc.NavLink("AREA OF INTEREST", href="/aoi", active="exact"),
                 dbc.NavLink("FINAL", href="/final", active="exact"),
@@ -125,8 +125,8 @@ app.layout = html.Div([dcc.Location(id="url"), sidebar, content])
 def render_page_content(pathname):
     if pathname == "/":
         return summary.layout
-    elif pathname == "/live":
-        return live.layout
+    elif pathname == "/livex":
+        return livex.layout
     elif pathname == "/occupancy":
         return evac.layout
     elif pathname == "/aoi":

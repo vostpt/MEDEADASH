@@ -2,3 +2,7 @@
 ._app.py
 pages/__pycache__/home.cpython-39.pyc
 pages/__pycache__/status.cpython-39.pyc
+pages/._summary.py
+pages/._table.py
+pages/__pycache__/live.cpython-39.pyc
+pages/__pycache__/livex.cpython-39.pyc
