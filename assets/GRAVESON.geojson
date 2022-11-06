@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "GRAVESON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "GRAVESON", "description": null, "tessellate": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 4.770313413605543, 43.85246583211056 ], [ 4.770779340475508, 43.852456861576393 ], [ 4.770751490481397, 43.852723816913851 ], [ 4.770303411211209, 43.852698031869288 ], [ 4.770313413605543, 43.85246583211056 ] ] ] } }
+]
+}
