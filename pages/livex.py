@@ -182,7 +182,7 @@ def confirm_update_cards(value):
 	
 	# DATA TREATMENT 
 
-	df_expanded_timeline = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQS-D7StC_6L7m88Re_LoAze7_XeAlK794VBE1KFTS-H82SAmZEkUcBS2Bcbodb6x4GvsY_77L59rKK/pub?gid=1158295603&single=true&output=csv')
+	df_expanded_timeline = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vRNKtgbUZQYmuYeSiBxu-Y48ox1aW6b_SaKCfuG2RPVL9eRN9Z8ndr6UL_ZQ5tQU4BrluEPGKc8waM2/pub?gid=1637668700&single=true&output=csv')
 	
 	df_expanded_timeline['Timestamp'] = pd.to_datetime(df_expanded_timeline['Timestamp'])
 
@@ -209,7 +209,7 @@ def confirm_update_cards(value):
 
 def confirm_update_graph(value):
 
-	df_expanded_timeline = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQS-D7StC_6L7m88Re_LoAze7_XeAlK794VBE1KFTS-H82SAmZEkUcBS2Bcbodb6x4GvsY_77L59rKK/pub?gid=1158295603&single=true&output=csv')
+	df_expanded_timeline = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vRNKtgbUZQYmuYeSiBxu-Y48ox1aW6b_SaKCfuG2RPVL9eRN9Z8ndr6UL_ZQ5tQU4BrluEPGKc8waM2/pub?gid=1637668700&single=true&output=csv')
 	
 	df_expanded_timeline['Timestamp'] = pd.to_datetime(df_expanded_timeline['Timestamp'])
 
@@ -230,7 +230,7 @@ def confirm_update_graph(value):
 
 def confirm_update_table(value):
 	
-	df_expanded_timeline = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vQS-D7StC_6L7m88Re_LoAze7_XeAlK794VBE1KFTS-H82SAmZEkUcBS2Bcbodb6x4GvsY_77L59rKK/pub?gid=1158295603&single=true&output=csv')
+	df_expanded_timeline = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vRNKtgbUZQYmuYeSiBxu-Y48ox1aW6b_SaKCfuG2RPVL9eRN9Z8ndr6UL_ZQ5tQU4BrluEPGKc8waM2/pub?gid=1637668700&single=true&output=csv')
 
 
 	df_expanded_timeline = df_expanded_timeline.sort_values(by='Timestamp',ascending=False)
